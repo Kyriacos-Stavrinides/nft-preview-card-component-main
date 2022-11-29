@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](nft-preview-card-component-4kygy2fm0-kyriacos-stavrinides.vercel.app)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-html-scss-kJrYDmlWlj)
+- Live Site URL: [Add live site URL here](https://nft-preview-card-component-main-eight-alpha.vercel.app/)
 
 ## My process
 

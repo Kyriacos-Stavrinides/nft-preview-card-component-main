@@ -1,0 +1,18 @@
+:root {
+    // color variables
+    // primary colors
+    --clr-primary-200: hsl(215, 51%, 70%); 
+    --clr-primary-300: hsl(178, 100%, 50%);
+    // accent colors
+    --clr-accent-100: hsl(0, 0%, 100%);
+    --clr-accent-500: hsl(215, 32%, 27%);
+    --clr-accent-700: hsl(216, 50%, 16%);
+    --clr-accent-900: hsl(217, 54%, 11%);
+    // font variables
+    font-size: 18px;
+    --f-family: 'Outfit', sans-serif;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-bold: 600;
+}
+

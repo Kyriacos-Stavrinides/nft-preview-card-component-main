@@ -1,0 +1,7 @@
+// Setting how the page displays
+
+body {
+    display: grid;
+    place-content: center;
+    padding: var(--padding);
+}

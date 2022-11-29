@@ -1,0 +1,78 @@
+// The nft card's layout
+
+.nft-card {
+    max-height: 30rem;
+    max-width: 18rem;
+    display: grid;
+    grid-auto-flow: row;
+    gap: calc(2* var(--gap));
+
+    &__img {
+        position: relative;
+
+        
+        .main-img {
+            opacity: 1;
+            // display: block;
+            // width: 100%;
+            // height: auto;
+            // transition: .5s ease;
+            // backface-visibility: hidden;
+        }
+        
+
+        .svg-img {
+            // transition: .5s ease;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            // opacity: 0;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        &:hover {
+
+            background-color: var(--clr-primary-300);
+            cursor: pointer;
+            .main-img {
+                opacity: 0.3;
+            }
+
+            .svg-img {
+                
+                opacity: 1;
+            }
+            
+        }
+        
+    }
+
+    &__information {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        picture {
+            min-width: fit-content;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: var(--gap);
+        }
+    }
+
+    &__creator {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: calc(2* var(--gap));
+    }
+}

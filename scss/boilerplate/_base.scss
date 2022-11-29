@@ -1,0 +1,15 @@
+// Setting the page basics
+
+html {
+    // Setting fonts according to the variables in :root
+    font-family: var(--f-family);
+    font-weight: var(--fw-regular);
+}
+
+body {
+    // Setting body style
+    width: 100%;
+    background-color: var(--clr-accent-900);
+    
+}
+
